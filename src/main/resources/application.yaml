@@ -31,7 +31,6 @@ management:
     web:
       exposure:
         include: health
-
 weather:
   api-key: ${WEATHER_API_KEY}
   forecast-url: http://api.weatherapi.com/v1/forecast.json?key=${WEATHER_API_KEY}
