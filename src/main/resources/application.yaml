@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: user-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    username: sa
+    password: 123456
+    url: jdbc:h2:file:./data/wdb;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+
+server:
+  port: 8083
+  servlet:
+    context-path: /weather-app
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+weather:
+  api-key: ${WEATHER_API_KEY}
+  forecast-url: http://api.weatherapi.com/v1/forecast.json?key=${WEATHER_API_KEY}
+  current-url: http://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}
+  history-url: http://api.weatherapi.com/v1/history.json?key=${WEATHER_API_KEY}
+  alert-url: http://api.weatherapi.com/v1/alerts.json?key=${WEATHER_API_KEY}&q=Mumbai
+  location: http://api.weatherapi.com/v1/timezone.json?key=${WEATHER_API_KEY}

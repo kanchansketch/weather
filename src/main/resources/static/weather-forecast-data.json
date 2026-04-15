@@ -1,0 +1,305 @@
+{
+  "location": {
+    "name": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "lat": 18.975,
+    "lon": 72.826,
+    "tz_id": "Asia/Kolkata",
+    "localtime_epoch": 1776058863,
+    "localtime": "2026-04-13 11:11"
+  },
+  "current": {
+    "last_updated": "2026-04-13 11:00",
+    "temp_c": 31.1,
+    "condition": {
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/143.png",
+      "code": 1030
+    },
+    "wind_kph": 10.1,
+    "humidity": 66,
+    "cloud": 25,
+    "vis_km": 4.0
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2026-04-13",
+        "day": {
+          "maxtemp_c": 30.2,
+          "mintemp_c": 27.5,
+          "condition": {
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+            "code": 1000
+          }
+        },
+        "hour": [
+          {
+            "time": "2026-04-13 00:00",
+            "temp_c": 28.5,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 9.7,
+            "humidity": 72,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 01:00",
+            "temp_c": 28.4,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 9.7,
+            "humidity": 71,
+            "cloud": 2
+          },
+          {
+            "time": "2026-04-13 02:00",
+            "temp_c": 28.1,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5.8,
+            "humidity": 71,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 03:00",
+            "temp_c": 27.9,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 6.8,
+            "humidity": 71,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 04:00",
+            "temp_c": 27.7,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5.8,
+            "humidity": 71,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 05:00",
+            "temp_c": 27.6,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 3.6,
+            "humidity": 70,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 06:00",
+            "temp_c": 27.5,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 1.4,
+            "humidity": 70,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 07:00",
+            "temp_c": 27.7,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 1.4,
+            "humidity": 69,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 08:00",
+            "temp_c": 28.2,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 3.6,
+            "humidity": 67,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 09:00",
+            "temp_c": 28.9,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 4.3,
+            "humidity": 63,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 10:00",
+            "temp_c": 29.5,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 4.7,
+            "humidity": 60,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 11:00",
+            "temp_c": 31.1,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/143.png",
+              "code": 1030
+            },
+            "wind_kph": 10.1,
+            "humidity": 66,
+            "cloud": 25
+          },
+          {
+            "time": "2026-04-13 12:00",
+            "temp_c": 30.2,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 14.4,
+            "humidity": 58,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 13:00",
+            "temp_c": 30.1,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 18.0,
+            "humidity": 61,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 14:00",
+            "temp_c": 29.9,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 19.4,
+            "humidity": 63,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 15:00",
+            "temp_c": 30.0,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 20.9,
+            "humidity": 66,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 16:00",
+            "temp_c": 29.7,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 20.2,
+            "humidity": 70,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 17:00",
+            "temp_c": 29.6,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 18.4,
+            "humidity": 72,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 18:00",
+            "temp_c": 29.3,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 13.0,
+            "humidity": 73,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 19:00",
+            "temp_c": 29.0,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 7.6,
+            "humidity": 74,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 20:00",
+            "temp_c": 28.9,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 6.8,
+            "humidity": 74,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 21:00",
+            "temp_c": 28.8,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 7.6,
+            "humidity": 74,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 22:00",
+            "temp_c": 28.7,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 10.8,
+            "humidity": 74,
+            "cloud": 0
+          },
+          {
+            "time": "2026-04-13 23:00",
+            "temp_c": 28.7,
+            "condition": {
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 14.4,
+            "humidity": 73,
+            "cloud": 0
+          }
+        ]
+      }
+    ]
+  }
+}

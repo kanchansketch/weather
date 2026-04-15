@@ -1,0 +1,24 @@
+{
+  "location": {
+    "name": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "lat": 18.975,
+    "lon": 72.826,
+    "tz_id": "Asia/Kolkata",
+    "localtime_epoch": 1776059053,
+    "localtime": "2026-04-13 11:14"
+  },
+  "current": {
+    "last_updated": "2026-04-13 11:00",
+    "temp_c": 31.1,
+    "condition": {
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/143.png",
+      "code": 1030
+    },
+    "wind_kph": 10.1,
+    "humidity": 66,
+    "cloud": 25,
+    "vis_km": 4.0
+  }
+}
