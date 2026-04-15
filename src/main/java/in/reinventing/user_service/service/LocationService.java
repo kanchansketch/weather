@@ -13,7 +13,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.util.UriComponentsBuilder;
 
+import java.net.URI;
 import java.util.List;
 import java.util.Optional;
 
@@ -83,9 +85,12 @@ public class LocationService {
     }
 
     private LocationInfo.Location getLocation(String location) {
+        URI uri = UriComponentsBuilder.fromUriString(locationUrl)
+                .queryParam("q",location)
+                .build().toUri();
         final LocationInfo location1 =
                 restTemplate.exchange(
-                        locationUrl,
+                        uri,
                         HttpMethod.GET,
                         null,
                         LocationInfo.class).getBody();
