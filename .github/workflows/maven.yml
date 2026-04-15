@@ -28,8 +28,5 @@ jobs:
     - name: Build Docker Image
       run: docker build -t ${{secrets.DOCKER_USER}}/weather-app .
 
-#    - name: Tagging weather app
-#    - uses:
-
     - name: Push On Docker hub
-    - run: docker push ${{secrets.DOCKER_USER}}/weather-app
+      run: docker push ${{secrets.DOCKER_USER}}/weather-app
