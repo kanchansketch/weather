@@ -9,7 +9,10 @@ RUN mvn clean package -DskipTests
 
 FROM eclipse-temurin:21-jre-jammy
 WORKDIR /app
-RUN mkdir -p /app/data && chmod -R 777 /app
+RUN mkdir -p /app/data
+# give permission to java user
+RUN chown -R 1001:1001 /app
+USER 1001
 ENV WEATHER_API_KEY=null
 VOLUME /app/data
 COPY --from=builder /app/target/*.jar app.jar
