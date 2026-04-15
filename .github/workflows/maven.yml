@@ -18,6 +18,8 @@ jobs:
 
     - name: Build with Maven
       run: mvn clean package -DSkipTests
+      env:
+        WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
 
     - name: Push to Docker
       uses: docker/login-action@v2
